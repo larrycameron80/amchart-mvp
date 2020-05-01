@@ -11,7 +11,9 @@
   "scripts": {
     "postinstall": "npm run build",
     "watch": "webpack --env.dev",
-    "build": "webpack --env.production"
+    "build": "webpack --env.production",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -31,9 +33,11 @@
     "truffle-hdwallet-provider": "0.0.3",
     "uport-connect": "^0.7.0",
     "webpack": "^3.10.0",
-    "zeppelin-solidity": "^1.4.0"
+    "zeppelin-solidity": "^1.4.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "prettier": "1.10.2"
-  }
+  },
+  "snyk": true
 }
