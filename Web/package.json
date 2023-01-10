@@ -29,7 +29,7 @@
     "request": "^2.83.0",
     "truffle-contract": "^3.0.1",
     "truffle-hdwallet-provider": "0.0.3",
-    "uport-connect": "^0.7.0",
+    "uport-connect": "^1.1.2",
     "webpack": "^3.10.0",
     "zeppelin-solidity": "^1.4.0"
   },
